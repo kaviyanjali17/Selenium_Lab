@@ -34,7 +34,7 @@ public class Lab9_q1_Testng {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
 
-        // ✅ Always open the site before each test
+
         driver.get("https://tutorialsninja.com/demo/index.php?");
         System.out.println("Opened TutorialNinja demo site.");
     }
@@ -82,3 +82,4 @@ public class Lab9_q1_Testng {
         }
     }
 }
+
